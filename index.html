@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='description' content='tous les formulaire possible et important en html'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Les Formulaire</title>
+    <link rel='stylesheet' href='assets/css/style.css'>   
+</head>
+
+<body>
+    <header>
+
+        <h1>Les Formulaire</h1>
+
+    </header>
+
+    <main>
+
+        <form>
+            <fieldset>
+                <legend>Identité</legend>
+
+                <label for="pseudo">Pseudo *</label>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required>
+
+                <br>
+
+                <label for="password">Mot de passe *</label>
+                <input type="password" id="password" placeholder="Mot de passe" required>
+
+                <br>
+
+                <label for="mail">Mail</label>
+                <input type="email" id="mail" placeholder="houdy@gmail.com">
+
+                <br>
+
+                <label for="liste">Liste déroulante</label>
+                <select name="destination" id="liste">
+                    <option selected>choisir</option>
+                    <option value="fr">Francais</option>
+                    <option value="es">Espagnol</option>
+                    <option value="it">Italien</option>
+                </select>
+
+                <br>
+
+                <label for="jauge">Jauge</label>
+                <input type="range" id="jauge" min="0" max="100" step="5" value="50">
+
+                <br>
+
+                <label for="color">Couleur</label>
+                <input type="color" id=""color>
+
+            </fieldset>
+
+            <input type="submit" name="Inscription" value="Envoyer">
+
+        </form>
+
+
+
+    </main>
+
+    <footer>
+    </footer>
+
+<script src="https://kit.fontawesome.com/4322dd2177.js" crossorigin="anonymous"></script>
+<script src='assets/main.js'></script>
+</body>
+</html>

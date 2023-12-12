@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+i {
+    padding: 50px;
+    color: white;
+    font-size: 2rem;
+    margin: 50px 0 0 200px;
+    background-color: #2CBBBB;
+    border-radius: 50%;
+}
+
+.p {
+    margin:15px 0 0 165px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.blue {
+    color: #2CBBBB;
+}
+
+.margin {
+    margin: 0 0 0 130px;
+}
+
+form {
+    width: 40%;
+    margin: 100px 0 0 300px;
+    background-color: white;
+    padding: 1em;
+ 
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 40%;
+    padding: 12px 20px;
+    margin:8px 25px;
+    display: inline-block;
+    border: none;
+    font-size: 18px;
+    border-bottom: solid 1px gainsboro;;
+    box-sizing: border-box;
+}
+
+label {
+    display: none;
+}
+
+img {
+    width: 31.9rem;
+    margin-top: 101px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    color: white;
+    background-color: #2CBBBB;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#subject,
+textarea {
+    width: 88%;
+}
+
+textarea {
+    margin-left: 30px;
+    border: none;
+    border-bottom: solid 1px gainsboro;;
+}
+h2 {
+    margin: 30px 0 30px 30px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.pform {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.pnel {
+    display: inline-block;
+    margin: 30px 0 0 30px ;
+}
+
+.pner {
+    display: inline-block;
+    margin: 0 0 0  270px;
+}
